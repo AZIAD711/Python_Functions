@@ -1,0 +1,14 @@
+#FUNCTION TO POWER NUMBERS 
+def POWER(NUMBER,POWER_NUMBER):
+    if NUMBER==0 or POWER_NUMBER == 0:
+        return "ERROR: DIVSION BY ZERO IS NOT ALLOWED !"
+    else:
+        POW=pow(NUMBER,POWER_NUMBER)
+        return POW
+#EXAMPLE IF YOU WISH TO TEST FUNCTION 
+N=int(input("ENTER NUMBER TO POWER : "))
+P=int(input("ENTER POWER TO WHICH NUMBER WILL BE RAISED : "))
+if N==0 or P==0:
+    print(f"{POWER(N,P)}")
+else:
+    print(f"TOTAL OF POWER = {POWER(N,P)}")
