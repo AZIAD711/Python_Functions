@@ -1,0 +1,9 @@
+#FUNCTION TO MULTIPLY NUMBERS 
+def PRODUCT(NUMBER):
+    P=1
+    for COUNT in range(1,NUMBER+1):
+        P*=float(input(f"ENTER NUMBER ({COUNT}) : "))
+    return P
+#EXAMPLE IF YOU WISH TO TEST FUNCTION 
+N=int(input("ENTER NUMBER TO MULTIPLY : "))
+print(f"TOTAL OF PRODUCT = {PRODUCT(N)}")
